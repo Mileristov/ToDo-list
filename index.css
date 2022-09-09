@@ -9,8 +9,10 @@
 
 body {
     background-image: url("todo.jpg");
-    background-size: 100%;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .wrapper {
