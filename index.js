@@ -41,7 +41,7 @@ function showToDo(filter) {
         });
     }
 
-    taskbox.innerHTML = li || `You're all out of task's`;
+    taskbox.innerHTML = li || `Any new Task's you?`;
 }
 
 showToDo("all");
